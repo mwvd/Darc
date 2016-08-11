@@ -23,21 +23,24 @@ a { text-decoration: none; color: inherit; -webkit-transition: .3s; -moz-transit
 #button { position: fixed; right: 100px; bottom: 92px; }
 
 /* line 70, ../sass/56.scss */
+.ig { position: fixed; left: 100px; bottom: 92px; font-size: 16px; padding-top: 3px; padding-bottom: 3px; padding-left: 8px; padding-right: 8px; border-radius: 14px; border: none; background-color: #000000; color: #bebebe; }
+
+/* line 85, ../sass/56.scss */
 #button-dl { margin-top: 30px; cursor: alias; }
 
-/* line 75, ../sass/56.scss */
+/* line 90, ../sass/56.scss */
 .button { font-size: 12px; padding-top: 3px; padding-bottom: 3px; padding-left: 8px; padding-right: 8px; border-radius: 14px; /* box-shadow: 0px 0px 20px #747474; */ font-family: 'courier'; border: none; background-color: #000000; color: #bebebe; cursor: help; }
 
-/* line 90, ../sass/56.scss */
+/* line 105, ../sass/56.scss */
 .button:active { border: none; background-color: #101010; /* box-shadow: 0px 0px 20px #626262; */ }
 
-/* line 96, ../sass/56.scss */
+/* line 111, ../sass/56.scss */
 .button:focus { border: none; }
 
-/* line 100, ../sass/56.scss */
+/* line 115, ../sass/56.scss */
 #darc-player { display: none; position: absolute; z-index: 56; font-family: 'courier'; font-size: 14px; line-height: 16px; color: #fff; width: 286px; height: 250px; padding: 8px; /* border: 1px solid #fff; */ /* box-shadow: 0px 0px 20px #747474; */ cursor: move; top: 2em; left: 2em; }
 
-/* line 118, ../sass/56.scss */
+/* line 133, ../sass/56.scss */
 #darc { display: none; position: absolute; z-index: 56; font-family: 'courier'; font-size: 14px; line-height: 16px; color: #fff; background-color: #000; width: 200px; height: 250px; padding: 8px; /* border: 1px solid #fff; */ /* box-shadow: 0px 0px 20px #747474; */ cursor: move; top: 65px; right: 100px; text-align: right; }
 
 @-webkit-keyframes grain { 0%, 100% { -moz-transform: translate(0, 0); -ms-transform: translate(0, 0); -webkit-transform: translate(0, 0); transform: translate(0, 0); }
@@ -80,59 +83,59 @@ a { text-decoration: none; color: inherit; -webkit-transition: .3s; -moz-transit
   70% { -moz-transform: translate(0%, 15%); -ms-transform: translate(0%, 15%); -webkit-transform: translate(0%, 15%); transform: translate(0%, 15%); }
   80% { -moz-transform: translate(3%, 35%); -ms-transform: translate(3%, 35%); -webkit-transform: translate(3%, 35%); transform: translate(3%, 35%); }
   90% { -moz-transform: translate(-10%, 10%); -ms-transform: translate(-10%, 10%); -webkit-transform: translate(-10%, 10%); transform: translate(-10%, 10%); } }
-/* line 386, ../sass/56.scss */
+/* line 401, ../sass/56.scss */
 #grain > * { z-index: 1; }
 
-/* line 389, ../sass/56.scss */
+/* line 404, ../sass/56.scss */
 #grain:after { -webkit-animation: grain 5s steps(10) infinite; -moz-animation: grain 5s steps(10) infinite; -ms-animation: grain 5s steps(10) infinite; animation: grain 5s steps(10) infinite; background: url(../../assets/grain.png); content: ""; display: block; height: 300%; left: -100%; position: absolute; top: -100%; width: 300%; z-index: 0; }
 
-/* line 405, ../sass/56.scss */
+/* line 420, ../sass/56.scss */
 #button-mobile { display: none; visibility: none; }
 
-/* line 410, ../sass/56.scss */
+/* line 425, ../sass/56.scss */
 .sc-player { width: 286px; height: 250px; border: 1px solid #fff; position: relative; overflow: hidden; font-family: 'courier'; cursor: pointer; }
 
-/* line 420, ../sass/56.scss */
+/* line 435, ../sass/56.scss */
 .sc-tracks { position: absolute; height: 420px; width: 100%; top: 0; left: 0; font-size: 28px; line-height: 28px; margin-left: 13px; margin-bottom: 10px; margin-top: 4px; padding: 0; vertical-align: top; font-family: 'courier'; cursor: auto; color: #fff; overflow-y: scroll; background-color: transparent; }
 
-/* line 440, ../sass/56.scss */
+/* line 455, ../sass/56.scss */
 .sc-controls button, .sc-controls button:active, .tracks button { border: none; background: transparent; font-size: 12px; margin: 0; font-family: 'courier'; color: #fff; cursor: pointer; }
 
-/* line 452, ../sass/56.scss */
+/* line 467, ../sass/56.scss */
 button:focus { outline: 0; }
 
-/* line 454, ../sass/56.scss */
+/* line 469, ../sass/56.scss */
 .active { transform: translateX(45px); }
 
-/* line 458, ../sass/56.scss */
+/* line 473, ../sass/56.scss */
 .sc-controls { position: absolute; left: 0; bottom: 0; width: 100%; height: 26px; margin: 14px; font-size: 12px; vertical-align: middle; color: #fff; z-index: 565656565656; }
 
-/* line 471, ../sass/56.scss */
+/* line 486, ../sass/56.scss */
 .sc-controls button, .sc-controls small, .sc-controls small progress { display: inline-block; margin-right: 3px; cursor: pointer; font-size: 12px; }
 
-/* line 478, ../sass/56.scss */
+/* line 493, ../sass/56.scss */
 .sc-controls button { font-size: 20px; cursor: pointer; }
 
-/* line 483, ../sass/56.scss */
+/* line 498, ../sass/56.scss */
 .sc-control-btn img { width: 20px; height: 20px; display: inline-block; }
 
-/* line 489, ../sass/56.scss */
+/* line 504, ../sass/56.scss */
 .sc-player > img { position: absolute; height: 375px; width: 375px; right: 0; top: 0; margin: 10px; z-index: 56; }
 
-/* line 499, ../sass/56.scss */
+/* line 514, ../sass/56.scss */
 .ng-scope button { cursor: pointer; }
 
-/* line 503, ../sass/56.scss */
+/* line 518, ../sass/56.scss */
 progress { width: 100px; height: 10px; border-radius: 0; background-color: transparent; border: 1px solid #fff; margin: 4px; margin-top: 8px; }
 
-/* line 513, ../sass/56.scss */
+/* line 528, ../sass/56.scss */
 progress::-webkit-progress-bar { background-color: transparent; }
 
-/* line 517, ../sass/56.scss */
+/* line 532, ../sass/56.scss */
 progress::-webkit-progress-value { background-color: #fff; }
 
 /* 'Work Sans' */
-@media (max-device-width: 769px) { /* line 524, ../sass/56.scss */
+@media (max-device-width: 769px) { /* line 539, ../sass/56.scss */
   #button { display: none; visibility: none; }
-  /* line 529, ../sass/56.scss */
+  /* line 544, ../sass/56.scss */
   #darc-player { position: relative; display: block; } }
