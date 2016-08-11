@@ -427,7 +427,7 @@ a {
     height: 250px;
     border: 1px solid #fff;
     position: relative;
-    overflow: scroll;
+    overflow: hidden;
     font-family: 'courier';
     cursor: pointer;
 }
@@ -472,6 +472,16 @@ button:focus {outline:0;}
 
 li.tracks.ng-scope:last-child {
     margin-bottom: 220px;
+}
+
+.black-block {
+    background-color: #000;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 54px;
+    z-index: 565656565655;
 }
 
 .sc-controls {
