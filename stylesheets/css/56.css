@@ -96,7 +96,7 @@ a { text-decoration: none; color: inherit; -webkit-transition: .3s; -moz-transit
 .sc-player { width: 286px; height: 250px; border: 1px solid #fff; position: relative; overflow: hidden; font-family: 'courier'; cursor: pointer; }
 
 /* line 435, ../sass/56.scss */
-.sc-tracks { position: absolute; height: 420px; width: 100%; top: 0; left: 0; font-size: 28px; line-height: 28px; margin-left: 13px; margin-bottom: 10px; margin-top: 4px; padding: 0; vertical-align: top; font-family: 'courier'; cursor: auto; color: #fff; overflow-y: scroll; background-color: transparent; }
+.sc-tracks { position: absolute; height: 250px; width: 100%; top: 0; left: 0; font-size: 28px; line-height: 28px; margin-left: 13px; margin-bottom: 10px; margin-top: 4px; padding: 0; vertical-align: top; font-family: 'courier'; cursor: auto; color: #fff; overflow-y: scroll; background-color: transparent; }
 
 /* line 455, ../sass/56.scss */
 .sc-controls button, .sc-controls button:active, .tracks button { border: none; background: transparent; font-size: 12px; margin: 0; font-family: 'courier'; color: #fff; cursor: pointer; }
