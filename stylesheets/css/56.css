@@ -93,7 +93,7 @@ a { text-decoration: none; color: inherit; -webkit-transition: .3s; -moz-transit
 #button-mobile { display: none; visibility: none; }
 
 /* line 425, ../sass/56.scss */
-.sc-player { width: 286px; height: 250px; border: 1px solid #fff; position: relative; overflow: hidden; font-family: 'courier'; cursor: pointer; }
+.sc-player { width: 286px; height: 250px; border: 1px solid #fff; position: relative; overflow: scroll; font-family: 'courier'; cursor: pointer; }
 
 /* line 435, ../sass/56.scss */
 .sc-tracks { position: absolute; height: 420px; width: 100%; top: 0; left: 0; font-size: 28px; line-height: 28px; margin-left: 13px; margin-bottom: 10px; margin-top: 4px; padding: 0; vertical-align: top; font-family: 'courier'; cursor: auto; color: #fff; overflow-y: scroll; background-color: transparent; }
