@@ -108,7 +108,7 @@ button:focus { outline: 0; }
 .active { transform: translateX(45px); }
 
 /* line 473, ../sass/56.scss */
-li.tracks.ng-scope:last-child { margin-bottom: 60px; }
+li.tracks.ng-scope:last-child { margin-bottom: 25px; }
 
 /* line 477, ../sass/56.scss */
 .black-block { background-color: #000; position: absolute; left: 0; bottom: 0; width: 100%; height: 54px; z-index: 565656565655; }
