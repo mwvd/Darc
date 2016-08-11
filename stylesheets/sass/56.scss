@@ -470,6 +470,10 @@ button:focus {outline:0;}
     transform: translateX(45px);
 }
 
+li.tracks.ng-scope:last-child {
+    margin-bottom: 220px;
+}
+
 .sc-controls {
     position: absolute;
     left: 0;
@@ -479,6 +483,7 @@ button:focus {outline:0;}
     margin: 14px;
     font-size: 12px;
     vertical-align: middle;
+    background-color: #000;
     color: #fff;
     z-index: 565656565656;
 }
