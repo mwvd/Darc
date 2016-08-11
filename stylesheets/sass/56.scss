@@ -67,6 +67,21 @@ a {
     bottom: 92px;
 }
 
+.ig {
+    position: fixed;
+    left: 100px;
+    bottom: 92px;
+    font-size: 16px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-radius: 14px;
+    border: none;
+    background-color: #000000;
+    color: #bebebe;
+}
+
 #button-dl {
     margin-top: 30px;
     cursor: alias;
